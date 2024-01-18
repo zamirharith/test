@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="img/cougar-clipart-bearcat.png"
+    />
+    <meta http-equity="X-UA-Compatible" content="IE-Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shop</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="home.html" class="navbar-logo">Pet<span>Shop</span></a>
+
+      <div class="navbar-nav">
+        <a href="home.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="tips.html">Tips</a>
+        <a href="shop.html">Adoption</a>
+        <a href="products.html">Shop</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-bag"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+      <!-- Search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- Search form end -->
+      <!-- shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/royalcanin1.png" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Royal Canin</h3>
+            <div class="item-price">RM 95.80</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/bathingsand.png" alt="Product 2" />
+          <div class="item-detail">
+            <h3>Jonsanty Chinchilla Bathing Sand</h3>
+            <div class="item-price">RM 24.80</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/katilkucing.png" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Plush Round Calming Pet Bed Large 60cm Champagne</h3>
+            <div class="item-price">RM 79.90</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+
+      <!-- shopping cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Shop section start -->
+    <section class="products" id="products">
+      <h2><span>Best </span>Products</h2>
+      <p>
+        "Introducing our premier pet product, a meticulously crafted blend of
+        superior nutrition, irresistible taste, and thoughtful design, ensuring
+        your furry companion enjoys the highest quality of care, health, and
+        happiness."
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#shopping-cart-button"
+              ><i data-feather="shopping-bag"></i
+            ></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/royalcanin1.png" alt="royal canin" />
+          </div>
+          <div class="product-content">
+            <h3>Royal Canin</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 95.80 <span> RM 120.00 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-bag"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/bathingsand.png" alt="hamster bathing sand" />
+          </div>
+          <div class="product-content">
+            <h3>Jonsanty Chinchilla Bathing Sand</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 24.80 <span> RM 26.80 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-bag"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/catlitter.png" alt="product 3" />
+          </div>
+          <div class="product-content">
+            <h3>AK Cat Litter (Lavender Scented) 10kg</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 22.50 <span> RM 30.00 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-bag"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/catcage.png" alt="product 4" />
+          </div>
+          <div class="product-content">
+            <h3>Cat Cage 27" X 19" X 36"H</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 668.00 <span> RM 1000.00 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-bag"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/makananANJING.png" alt="product 4" />
+          </div>
+          <div class="product-content">
+            <h3>Nutram I20 Sensitive Dog Skin, Coat And Stomach 2kg</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">RM 99.00 <span> RM 150.00 </span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-bag"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/katilkucing.png" alt="product 6" />
+          </div>
+          <div class="product-content">
+            <h3>Plush Round Calming Pet Bed Large 60cm Champagne</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 79.90 <span> RM 85.00 </span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shop section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/umtofficial/" target="_blank"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/UMT_Official" target="_blank"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a
+          href="https://web.facebook.com/OfficialUMT/?_rdc=1&_rdr"
+          target="_blank"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="tips.html">Tips</a>
+        <a href="shop.html">Adoption</a>
+        <a href="products.html">Shop</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By<a href=""> Group 8 </a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+
+    <!-- Footer end -->
+    <!-- modal box item detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/royalcanin1.png" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Formulated to support urinary tract health and address issues such
+              as urinary crystals, stones, or other related conditions.Also
+              helps prevent the formation of crystals or stones and promote
+              overall urinary health.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">RM 95.80 <span> RM 120.00 </span></div>
+            <a href="#"
+              ><i data-feather="shopping-bag"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal box item detail end -->
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
